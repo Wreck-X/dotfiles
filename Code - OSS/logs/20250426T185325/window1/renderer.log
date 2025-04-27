@@ -1,0 +1,13 @@
+2025-04-26 18:53:27.989 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-04-26 18:53:28.124 [info] Started local extension host with pid 4144.
+2025-04-26 18:53:30.680 [info] [perf] Render performance baseline is 15ms
+2025-04-26 18:57:36.155 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-26 18:57:36.155 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-26 18:57:36.160 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-04-26 18:57:37.597 [error] An unknown error occurred. Please consult the log for more details.
+2025-04-26 18:58:02.822 [error] An unknown error occurred. Please consult the log for more details.
+2025-04-26 19:08:06.521 [error] UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value: Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1965471)
+	at oe (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1963431)
+	at Immediate.<anonymous> (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1959725)
+	at process.processImmediate (node:internal/timers:483:21)

@@ -1,0 +1,11 @@
+2025-04-25 20:15:57.665 [info] Extension host with pid 1454 started
+2025-04-25 20:15:57.665 [info] Skipping acquiring lock for /home/wreck/.config/Code/User/workspaceStorage/85fa494b76768548eff87f46a272d07b.
+2025-04-25 20:15:57.675 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-25 20:15:57.719 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-25 20:15:57.742 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-25 20:15:57.783 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-25 20:15:57.849 [info] Eager extensions activated
+2025-04-25 20:15:57.860 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-25 20:15:57.871 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-25 20:16:04.443 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-25 20:16:04.455 [info] Extension host with pid 1454 exiting with code 0

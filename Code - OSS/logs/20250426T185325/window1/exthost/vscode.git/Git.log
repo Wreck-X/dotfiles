@@ -1,0 +1,190 @@
+2025-04-26 18:53:29.669 [info] [main] Log level: Info
+2025-04-26 18:53:29.669 [info] [main] Validating found git in: "git"
+2025-04-26 18:53:29.669 [info] [main] Using git "2.49.0" from "git"
+2025-04-26 18:53:29.669 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-26 18:53:29.675 [info] > git rev-parse --show-toplevel [10ms]
+2025-04-26 18:53:29.675 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 18:53:29.675 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-26 18:53:30.164 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 18:53:30.164 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 18:53:30.574 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-26 18:53:30.574 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 18:54:00.868 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 18:54:00.868 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 18:57:02.124 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 18:57:02.124 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 18:57:04.454 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-26 18:57:04.454 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 18:57:09.546 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 18:57:09.546 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 18:57:36.172 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 18:57:36.172 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 19:07:05.686 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 19:07:05.686 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 19:08:33.400 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 19:08:33.400 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 19:12:47.096 [info] > git rev-parse --show-toplevel [0ms]
+2025-04-26 19:12:47.096 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 19:12:57.907 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 19:12:57.907 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 19:13:13.706 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 19:13:13.706 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-26 19:18:38.185 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-26 19:18:38.191 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-04-26 19:18:38.196 [info] [Model][openRepository] Opened repository: /home/wreck/Projects/news-block
+2025-04-26 19:18:38.208 [warning] [Git][getHEAD] Failed to parse HEAD file: Repository is using reftable format.
+2025-04-26 19:18:38.209 [info] > git config --get commit.template [6ms]
+2025-04-26 19:18:38.210 [info] > git symbolic-ref --short HEAD [2ms]
+2025-04-26 19:18:38.210 [info] fatal: No such ref: HEAD
+2025-04-26 19:18:38.214 [info] > git rev-parse HEAD [1ms]
+2025-04-26 19:18:38.214 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2025-04-26 19:18:38.221 [info] > git status -z -uall [4ms]
+2025-04-26 19:18:38.221 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:18:38.230 [info] > git symbolic-ref --short HEAD [4ms]
+2025-04-26 19:18:38.230 [info] fatal: No such ref: HEAD
+2025-04-26 19:18:38.233 [info] > git config --get commit.template [3ms]
+2025-04-26 19:18:38.250 [info] > git rev-parse HEAD [17ms]
+2025-04-26 19:18:38.250 [info] fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+2025-04-26 19:18:38.258 [info] > git status -z -uall [5ms]
+2025-04-26 19:18:38.258 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-26 19:18:38.722 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-26 19:18:44.551 [info] > git symbolic-ref --short HEAD [6ms]
+2025-04-26 19:18:44.555 [info] > git config --get commit.template [5ms]
+2025-04-26 19:18:44.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:18:44.560 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:18:44.560 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-04-26 19:18:44.567 [info] > git status -z -uall [4ms]
+2025-04-26 19:18:44.568 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:18:44.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:18:44.581 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2025-04-26 19:18:44.581 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-26 19:18:44.594 [info] > git reflog main --grep-reflog=branch: Created from *. [10ms]
+2025-04-26 19:18:44.598 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2025-04-26 19:18:44.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2025-04-26 19:18:44.605 [info] > git config --add --local branch.main.vscode-merge-base origin/main [0ms]
+2025-04-26 19:18:44.613 [info] > git symbolic-ref --short HEAD [4ms]
+2025-04-26 19:18:44.616 [info] > git config --get commit.template [4ms]
+2025-04-26 19:18:44.617 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:18:44.619 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:18:44.620 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-26 19:18:44.627 [info] > git status -z -uall [5ms]
+2025-04-26 19:18:44.628 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-26 19:18:44.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-26 19:18:44.639 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-04-26 19:18:44.643 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2025-04-26 19:18:44.646 [info] > git diff --name-status -z --diff-filter=ADMR 572270f5ecb54821ca4340932fe410fa17531885...refs/remotes/origin/main [3ms]
+2025-04-26 19:18:44.646 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [0ms]
+2025-04-26 19:18:49.592 [info] > git symbolic-ref --short HEAD [4ms]
+2025-04-26 19:18:49.596 [info] > git config --get commit.template [4ms]
+2025-04-26 19:18:49.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:18:49.600 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:18:49.601 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-26 19:18:49.607 [info] > git status -z -uall [4ms]
+2025-04-26 19:18:49.608 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:18:57.359 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-26 19:19:03.757 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-26 19:19:12.122 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-26 19:19:12.694 [info] > git symbolic-ref --short HEAD [5ms]
+2025-04-26 19:19:12.699 [info] > git config --get commit.template [5ms]
+2025-04-26 19:19:12.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-26 19:19:12.703 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:19:12.703 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-04-26 19:19:12.709 [info] > git status -z -uall [2ms]
+2025-04-26 19:19:12.710 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:19:19.977 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-26 19:19:20.544 [info] > git symbolic-ref --short HEAD [5ms]
+2025-04-26 19:19:20.548 [info] > git config --get commit.template [4ms]
+2025-04-26 19:19:20.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:19:20.553 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:19:20.553 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-04-26 19:19:20.560 [info] > git status -z -uall [4ms]
+2025-04-26 19:19:20.560 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:19:23.041 [info] > git show --textconv :blockchain/blockchain-backend.py [3ms]
+2025-04-26 19:19:23.045 [info] > git ls-files --stage -- blockchain/blockchain-backend.py [4ms]
+2025-04-26 19:19:23.048 [info] > git hash-object -t tree /dev/null [3ms]
+2025-04-26 19:19:23.048 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/wreck/Projects/news-block/blockchain/blockchain-backend.py.git?%7B%22path%22%3A%22%2Fhome%2Fwreck%2FProjects%2Fnews-block%2Fblockchain%2Fblockchain-backend.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-26 19:19:23.050 [info] > git hash-object -t tree /dev/null [2ms]
+2025-04-26 19:19:23.050 [warning] [GitFileSystemProvider][stat] File not found - git:/home/wreck/Projects/news-block/blockchain/blockchain-backend.py.git?%7B%22path%22%3A%22%2Fhome%2Fwreck%2FProjects%2Fnews-block%2Fblockchain%2Fblockchain-backend.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-26 19:19:23.059 [info] > git blame --root --incremental 572270f5ecb54821ca4340932fe410fa17531885 -- blockchain/blockchain-backend.py [1ms]
+2025-04-26 19:19:23.059 [info] fatal: no such path blockchain/blockchain-backend.py in 572270f5ecb54821ca4340932fe410fa17531885
+2025-04-26 19:19:23.326 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-26 19:19:25.573 [info] > git symbolic-ref --short HEAD [4ms]
+2025-04-26 19:19:25.576 [info] > git config --get commit.template [3ms]
+2025-04-26 19:19:25.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:19:25.581 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:19:25.582 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-26 19:19:25.588 [info] > git status -z -uall [3ms]
+2025-04-26 19:19:25.589 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:19:53.810 [info] > git symbolic-ref --short HEAD [6ms]
+2025-04-26 19:19:53.815 [info] > git config --get commit.template [6ms]
+2025-04-26 19:19:53.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:19:53.818 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:19:53.819 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-26 19:19:53.826 [info] > git status -z -uall [4ms]
+2025-04-26 19:19:53.826 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:19:54.150 [info] > git show --textconv :blockchain/blockchain-backend.py [13ms]
+2025-04-26 19:19:54.150 [info] > git show --textconv HEAD:blockchain/blockchain-backend.py [8ms]
+2025-04-26 19:19:54.150 [info] > git ls-files --stage -- blockchain/blockchain-backend.py [5ms]
+2025-04-26 19:19:54.153 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/wreck/Projects/news-block/blockchain/blockchain-backend.py.git?%7B%22path%22%3A%22%2Fhome%2Fwreck%2FProjects%2Fnews-block%2Fblockchain%2Fblockchain-backend.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-26 19:19:54.154 [info] > git ls-tree -l HEAD -- blockchain/blockchain-backend.py [5ms]
+2025-04-26 19:19:54.154 [warning] [GitFileSystemProvider][stat] File not found - git:/home/wreck/Projects/news-block/blockchain/blockchain-backend.py.git?%7B%22path%22%3A%22%2Fhome%2Fwreck%2FProjects%2Fnews-block%2Fblockchain%2Fblockchain-backend.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-26 19:19:54.154 [info] > git cat-file -s 839b79af732f5d682aaf01986dabe58c0b03c3f7 [1ms]
+2025-04-26 19:19:54.879 [info] > git config --get commit.template [1ms]
+2025-04-26 19:19:54.879 [info] > git symbolic-ref --short HEAD [5ms]
+2025-04-26 19:19:54.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-26 19:19:54.888 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:19:54.889 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-26 19:19:54.895 [info] > git status -z -uall [3ms]
+2025-04-26 19:19:54.896 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:19:54.977 [info] > git ls-files --stage -- blockchain/blockchain-backend.py [1ms]
+2025-04-26 19:19:54.983 [info] > git cat-file -s 839b79af732f5d682aaf01986dabe58c0b03c3f7 [2ms]
+2025-04-26 19:19:54.988 [info] > git show --textconv :blockchain/blockchain-backend.py [1ms]
+2025-04-26 19:20:08.740 [info] > git symbolic-ref --short HEAD [5ms]
+2025-04-26 19:20:08.744 [info] > git config --get commit.template [4ms]
+2025-04-26 19:20:08.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:20:08.748 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:20:08.749 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-26 19:20:08.754 [info] > git status -z -uall [3ms]
+2025-04-26 19:20:08.756 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-26 19:20:08.835 [info] > git ls-files --stage -- blockchain/blockchain-backend.py [2ms]
+2025-04-26 19:20:08.840 [info] > git cat-file -s 839b79af732f5d682aaf01986dabe58c0b03c3f7 [1ms]
+2025-04-26 19:20:08.846 [info] > git show --textconv :blockchain/blockchain-backend.py [1ms]
+2025-04-26 19:20:35.022 [info] > git symbolic-ref --short HEAD [4ms]
+2025-04-26 19:20:35.025 [info] > git config --get commit.template [3ms]
+2025-04-26 19:20:35.026 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:20:35.029 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:20:35.030 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-26 19:20:35.035 [info] > git status -z -uall [3ms]
+2025-04-26 19:20:35.036 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:20:35.047 [info] > git blame --root --incremental 813b4e0a1efbe111ce1186eb6a114536bc5634a4 -- blockchain/blockchain-backend.py [5ms]
+2025-04-26 19:20:35.049 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-04-26 19:20:35.053 [info] > git diff --name-status -z --diff-filter=ADMR 572270f5ecb54821ca4340932fe410fa17531885...refs/remotes/origin/main [1ms]
+2025-04-26 19:20:36.143 [info] > git symbolic-ref --short HEAD [5ms]
+2025-04-26 19:20:36.145 [info] > git config --get commit.template [3ms]
+2025-04-26 19:20:36.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:20:36.150 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wreck/Projects/news-block/.git/refs/remotes/origin/main'
+2025-04-26 19:20:36.151 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-04-26 19:20:36.156 [info] > git status -z -uall [2ms]
+2025-04-26 19:20:36.157 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:20:36.238 [info] > git ls-files --stage -- blockchain/blockchain-backend.py [1ms]
+2025-04-26 19:20:36.245 [info] > git cat-file -s 839b79af732f5d682aaf01986dabe58c0b03c3f7 [1ms]
+2025-04-26 19:20:36.252 [info] > git show --textconv :blockchain/blockchain-backend.py [2ms]
+2025-04-26 19:22:19.781 [info] > git symbolic-ref --short HEAD [5ms]
+2025-04-26 19:22:19.785 [info] > git config --get commit.template [4ms]
+2025-04-26 19:22:19.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-26 19:22:19.794 [info] > git status -z -uall [4ms]
+2025-04-26 19:22:19.794 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-26 19:22:19.803 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2025-04-26 19:22:19.808 [info] > git diff --name-status -z --diff-filter=ADMR 813b4e0a1efbe111ce1186eb6a114536bc5634a4...refs/remotes/origin/main [1ms]
+2025-04-26 19:25:01.311 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-26 19:25:02.369 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-26 19:25:02.842 [info] > git show --textconv :vite-project/src/App.css [5ms]
+2025-04-26 19:25:02.843 [info] > git ls-files --stage -- vite-project/src/App.css [1ms]
+2025-04-26 19:25:02.847 [info] > git cat-file -s b9d355df2a5956b526c004531b7b0ffe412461e0 [1ms]
+2025-04-26 19:25:03.921 [info] > git show --textconv :blockchain/blockchain-backend.py [5ms]
+2025-04-26 19:25:03.922 [info] > git ls-files --stage -- blockchain/blockchain-backend.py [1ms]
+2025-04-26 19:25:03.927 [info] > git cat-file -s 839b79af732f5d682aaf01986dabe58c0b03c3f7 [2ms]

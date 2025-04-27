@@ -1,0 +1,71 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "c184a50146171da67e05188d4991fc5ce5bf7c87cbf3b680ca0ea8cbde06626b",
+    "telemetry.devDeviceId": "0beca0cd-c209-4fd4-b65a-821ed2053afa",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/wreck/projects"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1745592295217"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/wreck": "__default__profile__",
+            "file:///home/wreck/projects": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1745592295217": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/wreck/.config/Code/Backups/1745592295217",
+            "uiState": {
+                "mode": 1,
+                "x": 1228,
+                "y": 0,
+                "width": 616,
+                "height": 1135
+            }
+        },
+        "openedWindows": []
+    }
+}

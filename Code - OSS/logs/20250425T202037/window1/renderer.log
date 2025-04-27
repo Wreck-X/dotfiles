@@ -1,0 +1,5 @@
+2025-04-25 20:20:40.391 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-04-25 20:20:40.454 [info] Started local extension host with pid 1153.
+2025-04-25 20:20:40.472 [info] Started initializing default profile extensions in extensions installation folder. file:///home/wreck/.vscode-oss/extensions
+2025-04-25 20:20:40.578 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/wreck/.vscode-oss/extensions
+2025-04-25 20:20:43.323 [info] [perf] Render performance baseline is 18ms

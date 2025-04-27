@@ -1,0 +1,178 @@
+2025-04-26 18:57:36.486 [warning] Dir "/home/wreck/Projects/.pixi/envs" is not watchable (directory does not exist)
+2025-04-26 18:57:36.486 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:39305)
+	at new v (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:878107)
+	at ge (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1684812)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688176
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at e.dynamicValue (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1700171)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686348
+	at Ee (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686604)
+	at Se (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688320)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685899
+	at Array.map (<anonymous>)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685870
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at a.get (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:536740)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:451577
+	at async t.activateComponents (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:449857)
+	at async /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642626
+	at async e (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642158)
+	at async cw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+	at async cw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+	at async cw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)]
+2025-04-26 18:57:36.486 [info] Starting Environment refresh
+2025-04-26 18:57:36.486 [info] Searching for interpreters in posix paths locator
+2025-04-26 18:57:36.486 [info] Searching for pyenv environments
+2025-04-26 18:57:36.486 [info] Searching for conda environments
+2025-04-26 18:57:36.486 [info] Searching for global virtual environments
+2025-04-26 18:57:36.486 [info] Searching for custom virtual environments
+2025-04-26 18:57:36.486 [info] pyenv is not installed
+2025-04-26 18:57:36.486 [info] Finished searching for pyenv environments: 36 milliseconds
+2025-04-26 18:57:36.486 [info] Finished searching for custom virtual envs: 35 milliseconds
+2025-04-26 18:57:36.486 [info] > conda info --json
+2025-04-26 18:57:36.486 [info] > hatch env show --json
+2025-04-26 18:57:36.486 [info] cwd: .
+2025-04-26 18:57:36.486 [info] > pyenv which python
+2025-04-26 18:57:36.486 [info] cwd: .
+2025-04-26 18:57:36.486 [info] Finished searching for global virtual envs: 60 milliseconds
+2025-04-26 18:57:36.487 [info] Found: /bin/python --> /bin/python3.13
+2025-04-26 18:57:36.488 [info] Found: /bin/python3 --> /bin/python3.13
+2025-04-26 18:57:36.488 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-04-26 18:57:36.498 [info] Found: /sbin/python --> /sbin/python3.13
+2025-04-26 18:57:36.499 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-04-26 18:57:36.499 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-04-26 18:57:36.501 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-04-26 18:57:36.501 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-04-26 18:57:36.501 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-04-26 18:57:36.509 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-04-26 18:57:36.509 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-04-26 18:57:36.509 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-04-26 18:57:36.517 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-26 18:57:36.527 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-26 18:57:36.530 [info] Finished searching for interpreters in posix paths locator: 112 milliseconds
+2025-04-26 18:57:36.532 [info] Environments refresh paths discovered (event): 114 milliseconds
+2025-04-26 18:57:36.532 [info] Environments refresh paths discovered: 114 milliseconds
+2025-04-26 18:57:36.552 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-26 18:57:36.556 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-26 18:57:36.585 [info] Environments refresh finished (event): 167 milliseconds
+2025-04-26 18:57:36.589 [info] Environment refresh took 171 milliseconds
+2025-04-26 18:57:36.591 [info] Python interpreter path: /bin/python
+2025-04-26 18:57:36.593 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 175ms, has a falsy return value, Arg 1: <Uri:/home/wreck/Projects/blockchain-backend.py>, Arg 2: {"started":1745674056393}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+  	at C.activate (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+  	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+]
+2025-04-26 18:57:36.593 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-04-26 18:57:36.593 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-04-26 18:57:37.246 [info] Starting Jedi language server for Projects.
+2025-04-26 18:58:01.796 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/normalizeSelection.py
+2025-04-26 18:58:02.005 [info] Send text to terminal: /bin/python
+2025-04-26 18:59:14.266 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects/blockchain-backend.py
+2025-04-26 19:01:05.388 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects/blockchain-backend.py
+2025-04-26 19:01:33.254 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects/blockchain-backend.py
+2025-04-26 19:02:04.251 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects/blockchain-backend.py
+2025-04-26 19:03:32.936 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects/blockchain-backend.py
+2025-04-26 19:04:41.655 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects/blockchain-backend.py
+2025-04-26 19:05:01.268 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects/blockchain-backend.py
+2025-04-26 19:07:03.351 [info] Selected workspace /home/wreck/Projects for creating virtual environment.
+2025-04-26 19:07:04.957 [info] Selected interpreter /bin/python for creating virtual environment.
+2025-04-26 19:07:04.985 [info] Running Env creation script:  [
+  '/bin/python',
+  '/home/wreck/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/create_venv.py',
+  '--git-ignore'
+]
+2025-04-26 19:07:04.985 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/create_venv.py --git-ignore
+2025-04-26 19:07:04.985 [info] cwd: .
+2025-04-26 19:07:05.077 [info] Running: /bin/python -m venv .venv
+2025-04-26 19:07:06.196 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-26 19:07:06.196 [info] Environments refresh paths discovered: 14 milliseconds
+2025-04-26 19:07:06.220 [info] Environments refresh finished (event): 38 milliseconds
+2025-04-26 19:07:06.396 [info] CREATED_VENV:/home/wreck/Projects/.venv/bin/python
+CREATE_VENV.UPGRADING_PIP
+Running: /home/wreck/Projects/.venv/bin/python -m pip install --upgrade pip
+2025-04-26 19:07:06.574 [info] Requirement already satisfied: pip in ./.venv/lib/python3.13/site-packages (25.0.1)
+2025-04-26 19:07:08.535 [info] Collecting pip
+2025-04-26 19:07:08.764 [info]   Downloading pip-25.1-py3-none-any.whl.metadata (3.6 kB)
+2025-04-26 19:07:08.835 [info] Downloading pip-25.1-py3-none-any.whl (1.8 MB)
+2025-04-26 19:07:09.845 [info]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 1.9 MB/s eta 0:00:00
+2025-04-26 19:07:09.845 [info] 
+2025-04-26 19:07:09.854 [info] Installing collected packages: pip
+2025-04-26 19:07:09.855 [info]   Attempting uninstall: pip
+2025-04-26 19:07:09.856 [info]     Found existing installation: pip 25.0.1
+2025-04-26 19:07:09.870 [info]     Uninstalling pip-25.0.1:
+2025-04-26 19:07:09.872 [info]       Successfully uninstalled pip-25.0.1
+2025-04-26 19:07:10.382 [info] Successfully installed pip-25.1
+2025-04-26 19:07:10.634 [info] CREATE_VENV.UPGRADED_PIP
+2025-04-26 19:07:10.649 [info] CreateEnv Trigger - Environment created:  /home/wreck/Projects/.venv/bin/python
+2025-04-26 19:07:10.649 [info] CreateEnv Trigger - Running: /home/wreck/Projects/.venv/bin/python -m pip install flask
+2025-04-26 19:07:10.666 [info] Active interpreter [/home/wreck/Projects]:  /home/wreck/Projects/.venv/bin/python
+2025-04-26 19:07:10.667 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects
+2025-04-26 19:07:10.667 [info] Python interpreter path: ./.venv/bin/python
+2025-04-26 19:07:11.110 [info] Starting Jedi language server for Projects.
+2025-04-26 19:07:51.391 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects/blockchain-backend.py
+2025-04-26 19:16:45.015 [info] Discover tests for workspace name: Projects - uri: /home/wreck/Projects/news-bloc/blockchain-backend.py
